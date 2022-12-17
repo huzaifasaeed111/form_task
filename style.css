@@ -1,0 +1,102 @@
+.main{
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 50px;
+    border: 2px solid black;
+    width: 500px;
+    border-radius: 30px;
+    background-color: rgb(236, 236, 236);
+}
+
+.register h1{
+    text-align: center;
+}
+
+/* name field Styling */
+
+.name h2{
+    display: inline-block;
+    margin-left: 30px;
+}
+.input_name{
+    display: inline-block;
+}
+
+input[type=text] {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 250px;
+    height: 40px;
+    margin-left: 10px;
+  }
+
+/* Date of birth field styling */
+
+.dateofbirth h2{
+    display: inline-block;
+    margin-left: 30px;
+}
+.input_DOB{
+    display: inline-block;
+}
+
+input[type=date] {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 250px;
+    height: 40px;
+    margin-left: 30px;
+  }
+
+/* starting date styling */
+
+.startdate h2{
+    display: inline-block;
+    margin-left: 30px;
+}
+.input_start{
+    display: inline-block;
+}
+
+/* end date styling */
+
+.enddate h2{
+    display: inline-block;
+    margin-left: 30px;
+}
+.input_end{
+    display: inline-block;
+}
+
+/* file uploading styling */
+
+.fileupload h2{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.input_upload{
+    display: inline-block;
+}
+
+input[type=file] {
+    margin-left: 60px;
+  }
+
+/* submit button styling */
+
+.submitfile{
+    display: inline-block;
+    text-align: center;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.submit{
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border-radius: 40px;
+    background-color: rgb(238, 213, 100);
+}

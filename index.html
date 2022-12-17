@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+
+<form action="" id="form-info">
+
+    <div class="main">
+
+        <div class="register">
+            <h1>Register Now!</h1>
+        </div>
+
+        <div class="name">
+            <h2>NAME :</h2>
+            <input type="text" class="input_name" required id="name" style="margin-left:60px;" name="yourName" placeholder="Enter your Name" >
+        </div>
+
+        <div class="dateofbirth">
+            <h2>DOB :</h2>
+            <input type="date" class="input_DOB" id="DoB" name="DOB" style="margin-left:80px;">
+        </div>
+
+        <div class="startdate">
+            <h2>Start Date :</h2>
+            <input type="date" id="startDate" class="input_start" name="sDate">
+        </div>
+
+        <div class="enddate">
+            <h2>End Date :</h2>
+            <input type="date" id="endDate" class="input_end" name="eDate" style="margin-left:40px;">
+            <span id="Dateerror"></span>
+        </div>
+
+        <div class="fileupload">
+            <h2>Upload :</h2>
+            <input type="file" class="input_upload" id="fileupload" name="upload" accept="application/pdf">
+        </div>
+
+        <div class="submitfile">
+            <input type="button" id="submit" class="submit" value="submit" onclick="myfunction()" >
+        </div>
+    </div>
+
+</form>
+
+<script src="form.js"></script>
+</body>
+</html>
